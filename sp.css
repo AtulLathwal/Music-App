@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: black;
+    color: white;
+}
+.leftmain{
+    width: 75px;
+}
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home ul li {
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    padding-top: 14px;
+    padding-top: 14px;
+    list-style: none;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-size: 12px;
+}
+.heading img{
+    width: 30px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    color: grey;
+    
+}
+.footer a {
+    color: grey;   
+}
+.right{
+    margin: 16px 0;
+    position: relative;
+}
+.headerright{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+}
+.headerright > *{
+    padding: 20px;
+}
+.musicplaylist{
+    padding: 16px;
+}
+.musicplaylist h1{
+    padding: 16px;
+}
+.cardcontanier{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+    max-height: 60vh;
+}
+.card{
+    height: 100%;
+}
+.musicplaylist .card{
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.card:hover{
+    background-color: rgb(105,103,103);
+    cursor: pointer;
+
+}
+.card > *{
+    padding-top: 4px;
+
+}
+.playbutsvg{
+    position: relative;
+}
+.pla{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 1s  ease-out;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.h1cantainer{
+    background-color: #252525;
+}
